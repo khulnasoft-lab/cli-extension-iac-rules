@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Run Vulnmap to check for vulnerabilities
-        uses: vulnmap/actions/golang@master
+        uses: khulnasoft-lab/vulnmap-actions/golang@master
         env:
           VULNMAP_TOKEN: ${{ secrets.VULNMAP_TOKEN }}
         with:
@@ -40,7 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Run Vulnmap to check for vulnerabilities
-        uses: vulnmap/actions/golang@master
+        uses: khulnasoft-lab/vulnmap-actions/golang@master
         env:
           VULNMAP_TOKEN: ${{ secrets.VULNMAP_TOKEN }}
         with:
