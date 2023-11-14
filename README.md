@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://vulnmap.khulnasoft.com/style/asset/logo/vulnmap-print.svg" />
-</p>
-
 # Vulnmap IaC Rules CLI Extension
 
 ## Overview
