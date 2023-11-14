@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cli-extension-iac-rules
+  annotations:
+    github.com/project-slug: khulnasoft-lab/cli-extension-iac-rules
+    circleci.com/project-slug: github/khulnasoft-lab/cli-extension-iac-rules
+    github.com/team-slug: vulnmap/cloud-dev-ex
+  description: < An extension to the Vulnmap CLI that provides workflows to author and manage custom rules for Vulnmap IaC.
+  labels:
+    vulnmap.khulnasoft.com/businessCriticality: medium
+    vulnmap.khulnasoft.com/visibility: private
+    vulnmap.khulnasoft.com/metadata-version: "2022-23-01"
+spec:
+  type: vulnmap-cli-plugin
+  lifecycle: "-"
+  owner: cloud-dev-ex
