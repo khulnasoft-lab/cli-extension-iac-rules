@@ -10,7 +10,7 @@ require (
 	github.com/khulnasoft-lab/go-application-framework v0.0.0-20231114160628-a5f9fc7a9c25
 	github.com/khulnasoft/policy-engine v0.1.0
 	github.com/open-policy-agent/opa v0.58.0
-	github.com/rs/zerolog v1.31.0
+	github.com/rs/zerolog v1.32.0
 	github.com/spf13/afero v1.10.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
