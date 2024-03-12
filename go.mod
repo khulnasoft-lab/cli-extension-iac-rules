@@ -1,6 +1,6 @@
 module github.com/khulnasoft-lab/cli-extension-iac-rules
 
-go 1.21.4
+go 1.22.1
 
 require (
 	github.com/erikgeiser/promptkit v0.9.0
